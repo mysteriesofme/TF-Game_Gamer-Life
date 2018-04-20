@@ -1,0 +1,10 @@
+<div *ngFor="let entry of log" class="text">
+
+  <div *ngIf="entry.isDialog()" class="speakerIcon">
+    <img class="icon" src="/assets/img/icons/{{ entry.getSrc() }}" alt="">
+    <p class="speaker">{{ entry.getName() }}</p>
+  </div>
+  <div class="{{entry.isDialog() ? 'dialog' : 'storytext'}}"><p>{{ entry.getText() }}</p></div>
+</div>
+
+<button *ngIf="story.hasEntries()"  (click)="continue()" class="continue">Continue</button>

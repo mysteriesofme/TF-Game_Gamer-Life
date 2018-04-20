@@ -1,0 +1,54 @@
+:host {
+    display: inline-block;
+    background: blue;
+    color: white;
+    border: 5px double white;
+    padding: 5px 15px;
+    overflow: auto;
+    width: calc(100% - 305px);
+    height: 500px;
+}
+
+p {
+    font-family: "Lucida Console",monospace;
+}
+
+.text {
+    clear: both;
+}
+
+.speakerIcon {
+    width: 85px;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+}
+
+img.icon {
+    border-radius: 75px;
+    width: 75px;
+    height: 75px;
+    border: 5px solid white;
+}
+
+.dialog {
+    width: calc(100% - 180px);
+    float: left;
+    border-radius: 25px;
+    border: 3px solid;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.storytext {
+    border: 1px dashed;
+    padding: 10px;
+    margin: 5px;
+    white-space:pre-wrap;
+}
+
+button.continue {
+    display: block;
+    width: 100%;
+    white-space:pre-wrap;
+}

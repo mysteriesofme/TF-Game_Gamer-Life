@@ -1,0 +1,4 @@
+<div (click)="item.click()" class="item" *ngFor="let item of items">
+  <img src="{{ getSrc( item.getSrc() ) }}" alt="{{ item.getName() }}">
+  <span>{{ item.getName() }}</span>
+</div>

@@ -1,0 +1,5 @@
+<img class="base" src="assets/img/player/{{ player.getStage() }}/base.png" alt="">
+<img *ngIf="player.getBeardStatus()" class="beard" src="assets/img/player/{{ player.getStage() }}/beard.png" alt="">
+<img *ngIf="player.getBodyHairStatus()" class="bodyhair" src="assets/img/player/{{ player.getStage() }}/bodyhair.png" alt="">
+<img *ngIf="player.hasLogo()" class="logo" src="assets/img/player/{{ player.getStage() }}/{{  player.getLogo() }}" alt="">
+<progress max="100" value="{{ player.getProgress() }}"></progress>

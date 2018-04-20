@@ -1,0 +1,10 @@
+:host {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: block;
+}
+
+button.action {
+    margin: 10px;
+}

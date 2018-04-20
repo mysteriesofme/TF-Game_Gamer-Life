@@ -1,0 +1,22 @@
+:host {
+    border: 1px solid black;
+    display: block;
+    padding: 10px;
+}
+
+div {
+    display: inline-block;
+    width: 100px;
+    height: 115px;
+    padding: 2px;
+    margin: 0px 3px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+}
+
+div img {
+    width: 75px;
+}
